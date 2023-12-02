@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { InputDeterminant, ContainerDet } from './style'
+import { ContainerDet } from './style'
 
 const Determinant2 = () => {
     const [matrix, setMatrix] = useState([[1, 2], [3, 4]])
