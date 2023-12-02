@@ -9,7 +9,6 @@ const MainRoot = styled.div`
 
   padding: 10px;
   margin: 0 auto;
-  border: 1px solid red;
 `;
 
 export { MainRoot };
