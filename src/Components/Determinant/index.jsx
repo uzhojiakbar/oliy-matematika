@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Determinant = () => {
+const Determinant = ({ type }) => {
     return <p>
         salom
+        {type}
     </p>
 }
 
