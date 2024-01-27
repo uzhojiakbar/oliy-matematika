@@ -15,9 +15,7 @@ const Navbar = () => {
                 <NavLink className={({ isActive }) => isActive ? 'active link' : 'link'} to={'./determinant'} >
                     Determinant
                 </NavLink>
-
             </Links>
-            <div></div>
         </NavContainer>
     )
 }

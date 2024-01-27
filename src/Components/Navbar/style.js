@@ -2,27 +2,33 @@ import styled from "styled-components";
 
 const NavContainer = styled.div`
   width: 100%;
-  height: 60px;
+  height: 80px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   padding: 10px 15px;
   align-items: center;
+  gap: 40px;
+
+  background-color: #282828;
+  position: sticky;
+  top: 0;
 `;
 const Logo = styled.div`
   cursor: pointer;
   width: 50px;
   img {
     width: 100%;
-    border: 1px solid transparent;
-    border-radius: 50%;
+    border: 3px solid transparent;
+    border-radius: 25%;
 
     &:hover {
-      box-shadow: 0 0 2px white;
+      box-shadow: 0 0 3px white;
+      border: 3px solid white;
     }
 
     &:active {
-      border: 1px solid white;
+      border: 3px solid white;
     }
   }
 `;
@@ -31,7 +37,7 @@ const Links = styled.div`
   display: flex;
   gap: 20px;
   .link {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-family: cursive;
     font-weight: 400;
