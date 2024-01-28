@@ -88,6 +88,7 @@ const Select = styled.div`
     .option{
       font-family: 'Courier New', Courier, monospace;
       padding: 5px 10px;
+      border: none;
       border-radius: 10px;
       min-width: 80%;
       display: flex;
@@ -95,6 +96,7 @@ const Select = styled.div`
       justify-content: center;
 
       font-size: 14px;
+      text-decoration: none;
     }
 
     .option:hover{

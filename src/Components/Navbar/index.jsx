@@ -27,12 +27,14 @@ const Navbar = () => {
                                 open && <div className='options'>
                                     {
                                         v.child.map((valueChild, i) => {
-                                            return <div key={i} onClick={() => setSlc(valueChild.id)} className='option'>
-                                                <NavLink className={({ isActive }) => isActive ? 'active link' : 'link'} to={valueChild.path} >
-                                                    {valueChild.title}
-                                                </NavLink>
-
-                                            </div>
+                                            return <NavLink
+                                                key={i}
+                                                onClick={() => setSlc(valueChild.id)}
+                                                className={'option'}
+                                                to={valueChild.path}
+                                            >
+                                                {valueChild.title}
+                                            </NavLink>
                                         })
                                     }
                                 </div>
